@@ -36,9 +36,10 @@ export class Feedback extends Component {
     return (
       <>
         <Section title="Please leave feedback">
-          <Buttons options={stateNames} onLeaveFeedback={this.onLeaveFeedback}>
-            Bb
-          </Buttons>
+          <Buttons
+            options={stateNames}
+            onLeaveFeedback={this.onLeaveFeedback}
+          ></Buttons>
         </Section>
         <Section title="Statistics">
           <Statistics

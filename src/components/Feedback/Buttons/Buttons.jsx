@@ -10,7 +10,7 @@ export const Buttons = ({ options, onLeaveFeedback }) => {
           type="button"
           onClick={onLeaveFeedback}
         >
-          Good
+          {option}
         </button>
       ))}
     </>
